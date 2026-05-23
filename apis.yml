@@ -1,0 +1,235 @@
+aid: nutrisystem
+name: Nutrisystem (Wellina by Nutrisystem)
+description: >-
+  Nutrisystem is a direct-to-consumer subscription meal delivery service for
+  weight loss, founded in 1972 by Harold Katz and headquartered in Fort
+  Washington, Pennsylvania. The company pioneered prepackaged weight-loss
+  meal subscriptions, transitioned from physical retail to a
+  direct-to-consumer Internet and telephone model in 1999, and added mobile
+  delivery beginning in 2010. Nutrisystem is now operated under the marketing
+  umbrella "Wellina by Nutrisystem" — a multi-brand health and wellness
+  marketplace covering Nutrisystem, Jenny Craig, High Protein, Menopause
+  Support, Low Carb (GLP-1 friendly), and the Club Advantage à la carte
+  membership.
+  The legal operating entity is Nutrisystem, LLC, a subsidiary of
+  Wellful, Inc. (the parent organization formed after Kainos Capital
+  acquired Nutrisystem from Tivity Health in October 2020). Tivity Health
+  no longer owns the brand. Wellful's portfolio also includes South Beach
+  Diet (acquired by Nutrisystem in December 2015 for $15 million) and the
+  Jenny Craig intellectual property (acquired by Wellful in fall 2023 after
+  Jenny Craig's Chapter 7 bankruptcy and relaunched as an e-commerce
+  meal-delivery brand). LinkedIn classifies the company under Wellness and
+  Fitness Services with 501–1,000 employees. Stephen Mikulak was named
+  President in 2021.
+  Nutrisystem publishes no public developer APIs, OpenAPI specs, SDKs, or
+  developer portal. Its only digital surface beyond the e-commerce sites is
+  the consumer-facing Nutrisystem mobile app (iOS / Android) for food
+  logging, weight tracking, journaling, and meal-plan adjustments — and the
+  equivalent Jenny Craig app — neither of which advertise integrations with
+  Apple Health, Google Fit, Fitbit, or any third-party platform. The
+  github.com/nutrisystem GitHub organization exists but contains a single
+  inactive CSS repository last updated in March 2015. The technology
+  footprint is a closed consumer subscription stack with no public
+  developer touchpoints.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Consumer Subscription
+  - Diet
+  - Direct To Consumer
+  - E Commerce
+  - Health And Wellness
+  - Meal Delivery
+  - Mobile App
+  - Nutrition
+  - Subscription Commerce
+  - Weight Loss
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/nutrisystem/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.nutrisystem.com
+  - type: Marketplace
+    url: https://www.nutrisystem.com
+    title: Wellina by Nutrisystem — the all-in-one nutrition marketplace umbrella
+  - type: Brands
+    url: https://www.nutrisystem.com/products/brands
+  - type: SisterBrand
+    url: https://www.southbeachdiet.com
+    title: South Beach Diet (acquired by Nutrisystem December 2015, $15M; site now redirects to nutrisystem.com/products/brands)
+  - type: SisterBrand
+    url: https://www.jennycraig.com
+    title: Jenny Craig (IP acquired by Wellful Inc. fall 2023 post-bankruptcy; relaunched as e-commerce meal delivery; copyright JCR Holdings II, LLC)
+  - type: ParentCompany
+    url: https://en.wikipedia.org/wiki/Nutrisystem
+    title: Wellful, Inc. — parent of Nutrisystem, LLC; created after Kainos Capital acquired Nutrisystem from Tivity Health in October 2020
+  - type: FAQ
+    url: https://leaf.nutrisystem.com/faqs/
+  - type: ContactUs
+    url: https://www.nutrisystem.com/jsps_hmr/contact_us/contact_us.jsp
+  - type: SupportPhone
+    url: tel:+18004354074
+    title: 1-800-435-4074 (main support)
+  - type: CancellationPhone
+    url: tel:+18005855483
+    title: 1-800-585-5483 (cancellation)
+  - type: MobileApp
+    url: https://apps.apple.com/us/app/nutrisystem/id436875233
+    title: Nutrisystem app — iOS (food logging, weight tracking, journal, meal plan)
+  - type: MobileApp
+    url: https://play.google.com/store/apps/details?id=com.nutrisystem
+    title: Nutrisystem app — Android
+  - type: GitHubOrganization
+    url: https://github.com/nutrisystem
+    description: >-
+      Organization exists with 1 public repository ("CSS") last updated
+      March 12, 2015. No API-related projects, no public members.
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nutrisystem
+    title: 501–1,000 employees; Wellness and Fitness Services; Fort Washington, PA
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Nutrisystem
+  - type: Login
+    url: https://www.nutrisystem.com/login
+  - name: CompanyFacts
+    type: Features
+    description: Nutrisystem corporate fact sheet (verified May 2026).
+    data:
+      - fact: Founded
+        value: '1972'
+      - fact: Founder
+        value: Harold Katz
+      - fact: Headquarters
+        value: 1100 Virginia Dr #175, Fort Washington, PA 19034, USA
+      - fact: Legal Entity
+        value: Nutrisystem, LLC
+      - fact: Parent Company (Current)
+        value: Wellful, Inc.
+      - fact: Owner (Private Equity)
+        value: Kainos Capital (acquired from Tivity Health October 19, 2020)
+      - fact: Prior Owner
+        value: Tivity Health (December 2018 – October 2020); divested via sale to Kainos Capital
+      - fact: President
+        value: Stephen Mikulak (named 2021)
+      - fact: Industry
+        value: Wellness and Fitness Services
+      - fact: Employees (LinkedIn)
+        value: 501–1,000
+      - fact: Service Area
+        value: United States and Canada
+      - fact: Business Model
+        value: Direct-to-consumer subscription meal delivery with auto-delivery, à la carte add-ons, and mobile-app coaching
+      - fact: Pivotal Model Shift
+        value: 1999 transition from physical retail to Internet + telephone DTC
+      - fact: Mobile Launch
+        value: 2010
+  - name: BrandPortfolio
+    type: Features
+    description: >-
+      Brands and product lines under the Wellina by Nutrisystem marketplace
+      umbrella (source — nutrisystem.com homepage and products/brands page,
+      verified May 23, 2026).
+    data:
+      - brand: Wellina by Nutrisystem
+        category: Umbrella Marketplace
+        positioning: >-
+          "Your All in One Nutrition Marketplace" — "Purposeful nutrition —
+          all in one place for real results." A multi-brand wellness
+          marketplace created by Nutrisystem.
+        url: https://www.nutrisystem.com
+      - brand: Nutrisystem
+        category: Core Weight-Loss Subscription
+        positioning: Original prepackaged meal-delivery weight-loss plan; flagship brand
+        url: https://www.nutrisystem.com
+      - brand: South Beach Diet
+        category: Sister Brand — Low-Carb / Healthy-Fat Weight Loss
+        positioning: Acquired December 2015 for $15M; site now redirects to nutrisystem.com/products/brands
+        url: https://www.southbeachdiet.com
+      - brand: Jenny Craig
+        category: Sister Brand — Meal Delivery with Coaching
+        positioning: >-
+          Brand IP acquired by Wellful Inc. fall 2023 (post Chapter 7 bankruptcy)
+          and relaunched as e-commerce meal delivery. Sub-plans: Meal Delivery
+          Plans, Weight Loss Program, Club Jenny membership.
+        url: https://www.jennycraig.com
+      - brand: High Protein
+        category: Specialty Plan
+        positioning: High-protein meal plan line under Wellina marketplace
+        url: https://www.nutrisystem.com
+      - brand: Menopause Support
+        category: Specialty Plan — Women's Health
+        positioning: Plan tailored to menopause-stage nutrition needs
+        url: https://www.nutrisystem.com
+      - brand: Low Carb (GLP-1 Friendly)
+        category: Specialty Plan
+        positioning: Low-carbohydrate plan positioned as complementary to GLP-1 medications
+        url: https://www.nutrisystem.com
+      - brand: Club Advantage
+        category: À La Carte Membership
+        positioning: Individual meals and snacks starting at "$1.99 per meal"
+        url: https://www.nutrisystem.com
+  - name: DigitalSurface
+    type: Features
+    description: Consumer-facing digital surface (no developer surface exists).
+    data:
+      - surface: E-commerce site
+        url: https://www.nutrisystem.com
+        notes: Auto-delivery checkout, account dashboard, plan selection, customer success stories
+      - surface: Account dashboard
+        url: https://www.nutrisystem.com/login
+        notes: Customer auto-delivery management, order edits, address changes, cancellation
+      - surface: FAQ portal
+        url: https://leaf.nutrisystem.com/faqs/
+        notes: Five categories — About Nutrisystem, Diet/Food/Nutrition/Science, Ordering, Starting Your Plan, Subscription Management
+      - surface: Nutrisystem mobile app
+        platforms: iOS, Android
+        capabilities: Food logging, weight tracking, journal access, meal-plan adjustments, coaching
+        notes: No documented integrations with Apple Health, Google Fit, Fitbit, or any third-party platform
+      - surface: Jenny Craig mobile app
+        platforms: iOS, Android (package "wellful.jennycraig")
+        capabilities: Meal delivery management, weight tracking, coaching
+        notes: Owned by Wellful, branded as Jenny Craig
+      - surface: Chat support
+        notes: In-site chat widget for customer service
+      - surface: Phone support
+        notes: 1-800-435-4074 (main) / 1-800-585-5483 (cancellation)
+  - name: APISurfaceAssessment
+    type: Features
+    description: >-
+      API Evangelist assessment of Nutrisystem's public API and developer
+      surface as of May 23, 2026.
+    data:
+      - finding: Public developer portal
+        status: None — no developer.nutrisystem.com or equivalent
+      - finding: Public OpenAPI / AsyncAPI specs
+        status: None published
+      - finding: Public REST or GraphQL APIs
+        status: None — e-commerce, account, and app endpoints are private/internal
+      - finding: SDKs / CLI
+        status: None published
+      - finding: Mobile-app third-party integrations
+        status: None advertised — no Apple Health, Google Fit, Fitbit, MyFitnessPal connectivity in FAQ or app documentation
+      - finding: GitHub organization
+        status: github.com/nutrisystem exists with 1 stale public repo ("CSS", last updated March 12, 2015)
+      - finding: Status page / changelog / release notes
+        status: None public
+      - finding: Sandbox / Console
+        status: None
+      - finding: Public RSS / blog feed
+        status: No prominent developer or product-engineering blog
+      - finding: Webhooks
+        status: None documented
+      - finding: Tier rationale
+        status: >-
+          Tier 3 — no-apis. Pure consumer subscription business; the only
+          programmatic surface (the mobile apps) is closed and serves a
+          single first-party use case. Technology footprint is entirely
+          internal e-commerce / fulfillment / app stack with no public
+          developer touchpoints.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

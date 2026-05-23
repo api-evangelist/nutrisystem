@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "ns": "https://www.nutrisystem.com/ns#",
+    "name": "schema:name",
+    "alternateName": "schema:alternateName",
+    "description": "schema:description",
+    "url": "schema:url",
+    "logo": "schema:logo",
+    "foundingDate": "schema:foundingDate",
+    "founder": "schema:founder",
+    "headquartersLocation": "schema:headquarters",
+    "address": "schema:address",
+    "telephone": "schema:telephone",
+    "industry": "ns:industry",
+    "numberOfEmployees": "schema:numberOfEmployees",
+    "parentOrganization": "schema:parentOrganization",
+    "subOrganization": "schema:subOrganization",
+    "owns": "schema:owns",
+    "brand": "schema:brand",
+    "category": "ns:category",
+    "subscription": "ns:subscription",
+    "offers": "schema:offers",
+    "areaServed": "schema:areaServed",
+    "sameAs": "schema:sameAs",
+    "Organization": "schema:Organization",
+    "Corporation": "schema:Corporation",
+    "Brand": "schema:Brand",
+    "Person": "schema:Person",
+    "Product": "schema:Product",
+    "Offer": "schema:Offer",
+    "MobileApplication": "schema:MobileApplication",
+    "MealDeliveryService": "ns:MealDeliveryService",
+    "WeightLossProgram": "ns:WeightLossProgram",
+    "SubscriptionPlan": "ns:SubscriptionPlan",
+    "ownershipEvent": "ns:ownershipEvent",
+    "event": "ns:event",
+    "date": "ns:date",
+    "actor": "ns:actor"
+  },
+  "@type": ["Corporation", "MealDeliveryService"],
+  "@id": "https://www.nutrisystem.com/#org",
+  "name": "Nutrisystem, LLC",
+  "alternateName": ["Nutrisystem", "Wellina by Nutrisystem"],
+  "url": "https://www.nutrisystem.com",
+  "logo": "https://www.nutrisystem.com/etc/img/nutrisystem-logo.svg",
+  "foundingDate": "1972",
+  "founder": {"@type": "Person", "name": "Harold Katz"},
+  "industry": "Wellness and Fitness Services",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "minValue": 501,
+    "maxValue": 1000
+  },
+  "headquartersLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1100 Virginia Dr #175",
+      "addressLocality": "Fort Washington",
+      "addressRegion": "PA",
+      "postalCode": "19034",
+      "addressCountry": "US"
+    }
+  },
+  "telephone": "+1-800-435-4074",
+  "areaServed": [
+    {"@type": "Country", "name": "United States"},
+    {"@type": "Country", "name": "Canada"}
+  ],
+  "parentOrganization": {
+    "@type": "Corporation",
+    "@id": "https://wellful.com/#org",
+    "name": "Wellful, Inc.",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Kainos Capital",
+      "url": "https://www.kainoscapital.com"
+    }
+  },
+  "owns": [
+    {
+      "@type": "Brand",
+      "@id": "https://www.nutrisystem.com/#brand-nutrisystem",
+      "name": "Nutrisystem",
+      "category": "Weight-Loss Subscription Meal Delivery",
+      "url": "https://www.nutrisystem.com"
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.southbeachdiet.com/#brand",
+      "name": "South Beach Diet",
+      "category": "Low-Carb Weight Loss",
+      "url": "https://www.southbeachdiet.com",
+      "description": "Acquired by Nutrisystem in December 2015 for $15 million."
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.jennycraig.com/#brand",
+      "name": "Jenny Craig",
+      "category": "Meal Delivery with Coaching",
+      "url": "https://www.jennycraig.com",
+      "description": "Intellectual property acquired by Wellful, Inc. in fall 2023 post Chapter 7 bankruptcy; relaunched as e-commerce meal delivery."
+    },
+    {
+      "@type": "Brand",
+      "@id": "https://www.nutrisystem.com/#brand-wellina",
+      "name": "Wellina by Nutrisystem",
+      "category": "Umbrella Marketplace",
+      "description": "Your All in One Nutrition Marketplace — multi-brand health and wellness storefront."
+    }
+  ],
+  "offers": [
+    {
+      "@type": "Offer",
+      "@id": "https://www.nutrisystem.com/#offer-high-protein",
+      "name": "High Protein",
+      "category": "SubscriptionPlan"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://www.nutrisystem.com/#offer-menopause",
+      "name": "Menopause Support",
+      "category": "SubscriptionPlan"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://www.nutrisystem.com/#offer-low-carb",
+      "name": "Low Carb (GLP-1 Friendly)",
+      "category": "SubscriptionPlan"
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://www.nutrisystem.com/#offer-club-advantage",
+      "name": "Club Advantage",
+      "category": "À La Carte Membership",
+      "description": "Individual meals and snacks starting at $1.99 per meal."
+    }
+  ],
+  "subOrganization": [
+    {
+      "@type": "MobileApplication",
+      "@id": "https://apps.apple.com/us/app/nutrisystem/id436875233",
+      "name": "Nutrisystem App",
+      "operatingSystem": "iOS, Android"
+    }
+  ],
+  "ownershipEvent": [
+    {"event": "Founded", "date": "1972", "actor": "Harold Katz"},
+    {"event": "DTC pivot to Internet + telephone", "date": "1999"},
+    {"event": "Mobile launch", "date": "2010"},
+    {"event": "Acquired South Beach Diet", "date": "2015-12", "actor": "Nutrisystem"},
+    {"event": "Acquired by Tivity Health", "date": "2018-12", "actor": "Tivity Health"},
+    {"event": "Sold to Kainos Capital / Wellful, Inc.", "date": "2020-10-19", "actor": "Kainos Capital"},
+    {"event": "Stephen Mikulak named President", "date": "2021"},
+    {"event": "Jenny Craig IP acquired by Wellful", "date": "2023", "actor": "Wellful, Inc."}
+  ],
+  "sameAs": [
+    "https://github.com/nutrisystem",
+    "https://www.linkedin.com/company/nutrisystem",
+    "https://en.wikipedia.org/wiki/Nutrisystem"
+  ]
+}

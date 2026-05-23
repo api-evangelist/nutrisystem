@@ -1,0 +1,171 @@
+name: Nutrisystem Vocabulary
+description: >-
+  Domain vocabulary covering Nutrisystem (now "Wellina by Nutrisystem") —
+  a direct-to-consumer subscription meal delivery service for weight loss
+  founded 1972, operating as Nutrisystem, LLC under Wellful, Inc. (Kainos
+  Capital). Nutrisystem publishes no public APIs, so this vocabulary frames
+  the corporate, brand portfolio, and consumer subscription surface rather
+  than a developer surface.
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/nutrisystem/refs/heads/main/vocabulary/nutrisystem-vocabulary.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+
+corporate:
+  - term: Nutrisystem
+    definition: >-
+      Direct-to-consumer subscription meal delivery brand for weight loss
+      founded in 1972 by Harold Katz in Fort Washington, Pennsylvania;
+      flagship brand under the Wellina by Nutrisystem marketplace umbrella.
+  - term: Nutrisystem, LLC
+    definition: Current legal operating entity holding the Nutrisystem trademarks.
+  - term: Wellful, Inc.
+    definition: >-
+      Parent company of Nutrisystem, LLC, formed after Kainos Capital
+      acquired Nutrisystem from Tivity Health in October 2020; also holds
+      Jenny Craig intellectual property (acquired fall 2023).
+  - term: Kainos Capital
+    definition: >-
+      Dallas-based private equity firm; owner of Wellful, Inc. since
+      October 19, 2020.
+  - term: Tivity Health
+    definition: >-
+      Prior owner of Nutrisystem from December 2018 until October 2020;
+      divested the brand via sale to Kainos Capital. Tivity Health no
+      longer holds the brand.
+
+leadership:
+  - role: President
+    name: Stephen Mikulak
+    since: '2021'
+  - role: Founder
+    name: Harold Katz
+    year: '1972'
+
+brands:
+  - term: Wellina by Nutrisystem
+    definition: >-
+      Umbrella marketplace brand introduced by Nutrisystem positioning the
+      company as "Your All in One Nutrition Marketplace" combining
+      Nutrisystem, Jenny Craig, and specialty plans.
+  - term: South Beach Diet
+    definition: >-
+      Low-carb / healthy-fat weight-loss brand created by Dr. Arthur
+      Agatston; acquired by Nutrisystem in December 2015 for $15 million;
+      southbeachdiet.com currently redirects to nutrisystem.com/products/brands.
+  - term: Jenny Craig
+    definition: >-
+      Coaching-driven meal-delivery weight-loss brand; intellectual property
+      acquired by Wellful Inc. in fall 2023 following Jenny Craig's May
+      2023 Chapter 7 bankruptcy; relaunched as e-commerce meal delivery.
+  - term: Club Advantage
+    definition: >-
+      Nutrisystem à la carte subscription tier with individual meals and
+      snacks starting at $1.99 per meal.
+  - term: Club Jenny
+    definition: >-
+      Jenny Craig flexible subscription membership with à la carte ordering.
+
+plans:
+  - term: High Protein
+    definition: Nutrisystem meal plan emphasizing higher daily protein intake.
+  - term: Menopause Support
+    definition: Nutrisystem meal plan tailored to menopause-stage nutrition.
+  - term: Low Carb (GLP-1 Friendly)
+    definition: >-
+      Low-carbohydrate Nutrisystem plan positioned as complementary to
+      patients taking GLP-1 medications (e.g., semaglutide, tirzepatide).
+  - term: Meal Delivery Plan
+    definition: Standard Jenny Craig prepackaged-meal subscription.
+  - term: Weight Loss Program
+    definition: Traditional Jenny Craig structured weight-loss program with coaching.
+
+subscription:
+  - term: Auto-Delivery
+    definition: >-
+      Recurring shipment subscription where meals ship automatically on a
+      cadence selected by the customer; core revenue mechanic for both
+      Nutrisystem and Jenny Craig.
+  - term: À la carte
+    definition: Individual-meal purchases outside the auto-delivery subscription (e.g., Club Advantage).
+  - term: Order Edit
+    definition: Customer-initiated change to an upcoming auto-delivery shipment via account dashboard.
+  - term: Cancellation
+    definition: >-
+      Termination of an auto-delivery subscription; Nutrisystem operates a
+      dedicated cancellation phone line (1-800-585-5483).
+
+mealDelivery:
+  - term: Prepackaged Meal
+    definition: >-
+      Shelf-stable, frozen, or chilled portioned meal designed to support a
+      specified daily calorie target.
+  - term: Meal Plan
+    definition: >-
+      Curated multi-week menu of prepackaged meals and snacks meeting plan
+      criteria (calorie, macro, dietary).
+  - term: Coaching
+    definition: >-
+      Telephone, chat, or app-mediated nutrition and behavior-change
+      support included with subscription plans.
+
+digital:
+  - term: Nutrisystem App
+    definition: >-
+      First-party consumer mobile app (iOS / Android) for food logging,
+      weight tracking, journal access, and meal-plan adjustments. No
+      advertised third-party integrations.
+  - term: Jenny Craig App
+    definition: >-
+      First-party Jenny Craig consumer mobile app (Android package
+      wellful.jennycraig) for meal-delivery management and coaching.
+  - term: Account Dashboard
+    definition: Customer-facing web account for managing auto-delivery, address, and orders.
+  - term: Wellina Marketplace
+    definition: >-
+      The unified e-commerce storefront for all Wellful subscription brands
+      at nutrisystem.com.
+
+ownership_history:
+  - event: Founded
+    date: '1972'
+    actor: Harold Katz
+  - event: DTC pivot
+    date: '1999'
+    notes: Transitioned from physical retail centers to Internet + telephone sales
+  - event: Mobile launch
+    date: '2010'
+    notes: Added mobile delivery channel
+  - event: South Beach Diet acquired
+    date: '2015-12'
+    notes: $15 million purchase from SBD Enterprises LLC
+  - event: Acquired by Tivity Health
+    date: '2018-12'
+  - event: Sold to Kainos Capital / Wellful, Inc.
+    date: '2020-10-19'
+  - event: Stephen Mikulak named President
+    date: '2021'
+  - event: Jenny Craig IP acquired by Wellful
+    date: '2023-fall'
+    notes: Post-Chapter 7 bankruptcy of Jenny Craig; relaunched as e-commerce
+
+apiSurface:
+  - term: No Developer Portal
+    definition: Nutrisystem operates no developer.nutrisystem.com or equivalent.
+  - term: No Public OpenAPI
+    definition: No OpenAPI or AsyncAPI specifications are published.
+  - term: No Public SDK
+    definition: No client SDKs or CLI tools are published.
+  - term: No Third-Party Integration
+    definition: >-
+      The Nutrisystem and Jenny Craig mobile apps do not advertise
+      integration with Apple Health, Google Fit, Fitbit, or MyFitnessPal.
+  - term: GitHub Stale
+    definition: >-
+      github.com/nutrisystem hosts a single inactive CSS repository last
+      updated March 12, 2015.
+  - term: Tier 3 — no-apis
+    definition: >-
+      API Evangelist classification denoting a provider with no public API
+      surface; technology footprint is internal-only consumer e-commerce
+      and fulfillment.
