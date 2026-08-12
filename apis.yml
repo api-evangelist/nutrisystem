@@ -84,12 +84,6 @@ common:
     url: https://leaf.nutrisystem.com/faqs/
   - type: ContactUs
     url: https://www.nutrisystem.com/jsps_hmr/contact_us/contact_us.jsp
-  - type: SupportPhone
-    url: tel:+18004354074
-    title: 1-800-435-4074 (main support)
-  - type: CancellationPhone
-    url: tel:+18005855483
-    title: 1-800-585-5483 (cancellation)
   - type: MobileApp
     url: https://apps.apple.com/us/app/nutrisystem/id436875233
     title: Nutrisystem app — iOS (food logging, weight tracking, journal, meal plan)
